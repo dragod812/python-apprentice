@@ -2,12 +2,12 @@
 SHELL := /bin/bash
 
 run:
-	source venv/bin/activate && \
-	python <run-something>
+	source venv/bin/activate
+	# Run command
 
 test:
-	source venv/bin/activate && \
-	python <run-something>
+	source venv/bin/activate
+	# Test command
 
 venv:
 	python3 -m pip install -U virtualenv
